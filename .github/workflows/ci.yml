@@ -22,6 +22,8 @@ jobs:
 
       - name: Build Project
         run: npm run build
+      - name: Test Project
+        run: npm test
 
       - name: Upload production build
         uses: actions/upload-artifact@v4

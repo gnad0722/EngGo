@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/EngGo/static/js/main.51c2612a.js",
+    "main.js": "/EngGo/static/js/main.b0848e7d.js",
     "static/media/LoginPicture.jpg": "/EngGo/static/media/LoginPicture.24116adf954fbd02ae8c.jpg",
     "static/media/study.jpg": "/EngGo/static/media/study.be4d8bb9919352070167.jpg",
     "index.html": "/EngGo/index.html",
-    "main.51c2612a.js.map": "/EngGo/static/js/main.51c2612a.js.map"
+    "main.b0848e7d.js.map": "/EngGo/static/js/main.b0848e7d.js.map"
   },
   "entrypoints": [
-    "static/js/main.51c2612a.js"
+    "static/js/main.b0848e7d.js"
   ]
 }

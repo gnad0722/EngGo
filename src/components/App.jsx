@@ -8,14 +8,12 @@ import FormRegister from "./FormRegister";
 import DashBoard from "./DashBoard";
 function App(){
     return(
-        <BrowserRouter basename="/EngGo">
          <Routes>
             <Route path="/" element={<Heroes/>}/>
             <Route path="/login" element={<FormLogin/>}/>
             <Route path="/register" element={<FormRegister/>}/>
             <Route path="/dashboard/*" element={<DashBoard/>}/>
         </Routes>
-        </BrowserRouter>
        
     ) ;
 }

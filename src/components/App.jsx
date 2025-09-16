@@ -6,15 +6,16 @@ import Heroes from "./Heroes";
 import FormLogin from "./FormLogin";
 import FormRegister from "./FormRegister";
 import DashBoard from "./DashBoard";
-function App(){
-    return(
-         <Routes>
-            <Route path="/" element={<Heroes/>}/>
-            <Route path="/login" element={<FormLogin/>}/>
-            <Route path="/register" element={<FormRegister/>}/>
-            <Route path="/dashboard/*" element={<DashBoard/>}/>
-        </Routes>
-       
-    ) ;
+function App() {
+  return (
+    <BrowserRouter basename="/EngGo">
+      <Routes>
+        <Route path="/" element={<Heroes />} />
+        <Route path="/login" element={<FormLogin />} />
+        <Route path="/register" element={<FormRegister />} />
+        <Route path="/dashboard/*" element={<DashBoard />} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
 export default App;

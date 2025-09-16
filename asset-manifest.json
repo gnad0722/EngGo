@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/EngGo/static/js/main.debb3945.js",
+    "static/media/LoginPicture.jpg": "/EngGo/static/media/LoginPicture.24116adf954fbd02ae8c.jpg",
+    "static/media/study.jpg": "/EngGo/static/media/study.be4d8bb9919352070167.jpg",
+    "index.html": "/EngGo/index.html",
+    "main.debb3945.js.map": "/EngGo/static/js/main.debb3945.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.debb3945.js"
+  ]
+}
